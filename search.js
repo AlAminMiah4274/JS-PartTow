@@ -10,4 +10,28 @@ const lyricsLowerCase = lyrics.toLowerCase();
 const searchStringLowerCase = searchString.toLowerCase();
 const doesExist = lyricsLowerCase.includes(searchStringLowerCase);
 
-console.log(doesExist);
+const oneLine = lyrics.toLowerCase().includes(searchString.toLowerCase());
+// console.log(oneLine);
+
+// console.log(doesExist);
+
+// ********&*&*&*&********** //
+// indexOf ******* //
+
+console.log(lyrics.indexOf('vaposhe'));
+console.log(lyrics.indexOf('vasa'));
+
+if (lyrics.indexOf('oBelay') !== -1) {
+    console.log('exist inside the string');
+}
+else {
+    console.log('cannot find');
+}
+
+// startswith ******* //
+
+console.log(lyrics.startsWith('Ei obelay'));
+
+// endswith ******* //
+
+console.log(lyrics.endsWith('joto sukh'));
