@@ -15,7 +15,7 @@
 // console.log('The tallest person is:', tallest);
 
 function maxInArray(numbers) {
-    let largest = 145;
+    let largest = numbers[0];
     for (let i = 0; i < numbers.length; i++) {
         const index = i;
         const element = numbers[index];
