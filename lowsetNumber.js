@@ -10,6 +10,7 @@ function minInArray(numbers) {
     return lowest;
 }
 
+
 const heights = [124, 158, 154, 145, 170, 121];
 const lowest = minInArray(heights);
 console.log('The lowest person is:', lowest);
